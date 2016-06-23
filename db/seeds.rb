@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+5.times { Product.create!(name: "Product", description: "This is a product description.", price: 5, image:"https://unsplash.it/200/300/?gravity=east")}
