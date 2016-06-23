@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  # Root Route -> All products page
+  root 'site#index'
+
   # Route Controllers for JSON API
   namespace :api do
     namespace :v1 do
